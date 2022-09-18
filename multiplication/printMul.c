@@ -1,20 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * printMul - prints multiplecation table
- */
-int main(void)
+ * printMul - prints multiplication table
+ */ 
+
+void printMul(void)
 
 {
     int i, j;
     for (i = 1; i <= 14; i++)
     {
-        for (j = i; j <= 14; j++)
+        for (j = 1; j <= 14; j++)
         {
             printf("%d", i * j);
-            printf("\n");
+            printf(",");
         }
         printf("\n");
     }
-
 }
