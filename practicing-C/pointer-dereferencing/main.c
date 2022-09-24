@@ -1,4 +1,5 @@
 #include "header.h"
+#include <stdio.h>
 /**
 *main - calls other functions
 *Return: Always 0
